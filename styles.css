@@ -1,0 +1,74 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+ 
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+ 
+h1 {
+    color: #4A90E2;
+}
+ 
+/* Botões */
+.button-group {
+    margin: 20px 0;
+}
+ 
+button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+ 
+button:hover {
+    background-color: #357ABD;
+}
+ 
+/* Tabela */
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+ 
+.tabela th, .tabela td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+ 
+.tabela th {
+    background-color: #4A90E2;
+    color: white;
+}
+ 
+.tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+ 
+.tabela tr:hover {
+    background-color: #ddd;
+}
+ 
+/* Área de saída */
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
